@@ -1,0 +1,58 @@
+[
+  {
+    "keywords": ["com", "com trang", "gao", "gao trang"],
+    "aliases": ["rice", "white rice", "cooked rice"]
+  },
+  {
+    "keywords": ["banh mi", "banh my"],
+    "aliases": ["bread", "baguette"]
+  },
+  {
+    "keywords": ["pho bo", "pho"],
+    "aliases": ["beef pho", "rice noodle soup"]
+  },
+  {
+    "keywords": ["bun bo"],
+    "aliases": ["beef noodle soup"]
+  },
+  {
+    "keywords": ["mi goi", "mi tom"],
+    "aliases": ["instant noodles"]
+  },
+  {
+    "keywords": ["keo"],
+    "aliases": ["candy"]
+  },
+  {
+    "keywords": ["ga", "gà", "thit ga", "thịt gà", "ga ran", "gà rán"],
+    "aliases": ["chicken", "fried chicken"]
+  },
+  {
+    "keywords": ["thit", "thịt", "thit heo", "thịt heo", "heo", "lon", "lợn", "thit lon", "thịt lợn"],
+    "aliases": ["pork", "lean pork", "meat", "beef"]
+  },
+  {
+    "keywords": ["ca hoi"],
+    "aliases": ["salmon"]
+  },
+  {
+    "keywords": ["trung", "trung ga"],
+    "aliases": ["egg", "chicken egg"]
+  },
+  {
+    "keywords": ["sua chua"],
+    "aliases": ["yogurt"]
+  },
+  {
+    "keywords": ["tao"],
+    "aliases": ["apple"]
+  },
+  {
+    "keywords": ["chuoi"],
+    "aliases": ["banana"]
+  },
+  {
+    "keywords": ["bo", "qua bo"],
+    "aliases": ["avocado"]
+  }
+]

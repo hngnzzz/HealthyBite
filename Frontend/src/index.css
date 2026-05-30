@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  color: #6d1228;
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.72), transparent 30%),
+    linear-gradient(180deg, #fff7f9 0%, #ffe9f0 48%, #ffdbe7 100%);
+  font-family: 'Noto Sans', 'Segoe UI', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100vh;
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(255, 221, 233, 0.92), transparent 24%),
+    radial-gradient(circle at 80% 12%, rgba(255, 205, 225, 0.86), transparent 20%),
+    linear-gradient(180deg, #fff7f9 0%, #ffeef4 100%);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}

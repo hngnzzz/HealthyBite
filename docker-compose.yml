@@ -1,0 +1,100 @@
+name: healthymeal-source
+
+services:
+  frontend:
+    image: healthymeal-source-frontend:latest
+    build:
+      context: .
+      dockerfile: Frontend/Dockerfile
+      args:
+        VITE_API_BASE_URL: /api
+    environment:
+      VITE_API_BASE_URL: /api
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "${FRONTEND_PORT:-8081}:8080"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O - http://127.0.0.1:8080/healthz >/dev/null"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    restart: unless-stopped
+    networks:
+      - edge
+
+  backend:
+    image: healthymeal-source-backend:latest
+    build:
+      context: .
+      dockerfile: Backend/Dockerfile
+    depends_on:
+      database:
+        condition: service_healthy
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_URLS: http://0.0.0.0:8080
+      ConnectionStrings__DefaultConnection: Server=${DB_HOST:-database};Port=3306;Database=${DB_NAME:-healthymeal};Uid=${DB_USER:-healthymeal};Pwd=${DB_PASSWORD:-CHANGE_ME_DB_PASSWORD};SslMode=None;AllowPublicKeyRetrieval=True;Connection Timeout=15;Default Command Timeout=30;
+      Jwt__Key: ${JWT_KEY:-CHANGE_ME_JWT_KEY}
+      Jwt__Issuer: ${JWT_ISSUER:-HealthyMealIssuer}
+      Jwt__Audience: ${JWT_AUDIENCE:-HealthyMealAudience}
+      Jwt__ExpiryMinutes: ${JWT_EXPIRY_MINUTES:-60}
+      Jwt__AccessTokenExpiryMinutes: ${JWT_ACCESS_TOKEN_EXPIRY_MINUTES:-15}
+      Jwt__RefreshTokenExpiryDays: ${JWT_REFRESH_TOKEN_EXPIRY_DAYS:-14}
+      Jwt__RefreshTokenCookieName: ${JWT_REFRESH_TOKEN_COOKIE_NAME:-hm_refresh_token}
+      Jwt__RefreshTokenCookieSecure: ${JWT_REFRESH_TOKEN_COOKIE_SECURE:-false}
+      USDA_API_KEY: ${USDA_API_KEY:-}
+      FATSECRET_CLIENT_ID: ${FATSECRET_CLIENT_ID:-}
+      FATSECRET_CLIENT_SECRET: ${FATSECRET_CLIENT_SECRET:-}
+      Observability__EnableTracing: ${ENABLE_TRACING:-false}
+      DB_HOST: ${DB_HOST:-database}
+      DB_PORT: 3306
+      DB_WAIT_TIMEOUT: ${DB_WAIT_TIMEOUT:-60}
+      RUN_DB_WAIT: true
+      EnableHttpsRedirection: false
+    expose:
+      - "8080"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O - http://127.0.0.1:8080/health/ready | grep -q Healthy"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    restart: unless-stopped
+    networks:
+      - edge
+      - data
+
+  database:
+    image: mariadb:10.4.32
+    environment:
+      MARIADB_DATABASE: ${DB_NAME:-healthymeal}
+      MARIADB_USER: ${DB_USER:-healthymeal}
+      MARIADB_PASSWORD: ${DB_PASSWORD:-CHANGE_ME_DB_PASSWORD}
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-CHANGE_ME_DB_ROOT_PASSWORD}
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    volumes:
+      - db-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mariadb-admin ping -h 127.0.0.1 -uroot -p${DB_ROOT_PASSWORD:-CHANGE_ME_DB_ROOT_PASSWORD} --silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    restart: unless-stopped
+    networks:
+      - data
+
+volumes:
+  db-data:
+
+networks:
+  edge:
+    driver: bridge
+  data:
+    driver: bridge
+    internal: true

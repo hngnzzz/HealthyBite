@@ -1,0 +1,41 @@
+# Frontend
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.env
+
+# Backend
+Backend/bin/
+Backend/obj/
+Backend/.vs/
+
+# Environment
+.env
+*.env
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+.vs/
+
+# OS
+.DS_Store
+Thumbs.db
+# .NET build outputs at any level
+**/bin/
+**/obj/
+
+# Test generated files
+**/TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Playwright/e2e auth state if generated
+Frontend/e2e/.auth/

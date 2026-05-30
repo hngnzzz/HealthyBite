@@ -1,0 +1,588 @@
+name,englishName,category,calories,protein,fat,carbs,servingSizeValue,servingUnit,source,partialNutrition
+Scrambled Eggs (2 large),Scrambled Eggs,Protein,180,12,14,2,2,piece,local_csv,false
+Whole Wheat Toast (1 slice),Whole Wheat Toast,Carbs,80,4,1,14,1,piece,local_csv,false
+Coffee (black),Coffee,Drink,5,0.3,0.1,0,1,piece,local_csv,false
+Banana,Banana,Fruit,105,1.3,0.4,27,100,g,local_csv,false
+Grilled Chicken Salad,Grilled Chicken Salad,Protein,350,30,20,10,100,g,local_csv,false
+Apple,Apple,Fruit,95,0.5,0.3,25,100,g,local_csv,false
+Salmon (4oz grilled),Salmon,Seafood,230,25,14,0,113.4,g,local_csv,false
+Quinoa (1 cup cooked),Quinoa,Carbs,222,8,3.6,39,1,cup,local_csv,false
+Steamed Broccoli (1 cup),Steamed Broccoli,Vegetable,55,3.7,0.6,11.2,1,cup,local_csv,false
+Greek Yogurt (plain 1 cup),Greek Yogurt,Dairy,150,25,3,8,1,cup,local_csv,false
+Oatmeal (1 cup cooked),Oatmeal,Carbs,160,6,3,28,1,cup,local_csv,false
+Blueberries (1/2 cup),Blueberries,Fruit,42,0.5,0.2,11,1,piece,local_csv,false
+Almonds (1 oz),Almonds,Snack,164,6,14,6,28.35,g,local_csv,false
+Turkey Sandwich (on wheat),Turkey Sandwich,FastFood,340,22,12,34,1,piece,local_csv,false
+Carrot Sticks (1 cup),Carrot Sticks,Vegetable,52,1.2,0.3,12.3,1,cup,local_csv,false
+Spaghetti Bolognese,Spaghetti Bolognese,Carbs,460,20,18,55,100,g,local_csv,false
+Side Salad (light dressing),Side Salad,Vegetable,70,2,4,8,1,piece,local_csv,false
+Protein Shake (Whey),Protein Shake,Drink,120,24,1,3,1,piece,local_csv,false
+Cereal (Frosted Flakes 1 cup),Cereal,Carbs,130,2,0,31,1,cup,local_csv,false
+"Milk (2%, 1 cup)",Milk,Dairy,122,8,5,12,2,piece,local_csv,false
+Lentil Soup (1 can),Lentil Soup,Carbs,230,15,3,35,1,piece,local_csv,false
+White Rice (1 cup cooked),White Rice,Carbs,204,4.2,0.4,44.5,1,cup,local_csv,false
+Tofu Stir-fry,Tofu Stir-fry,Other,400,18,22,30,100,g,local_csv,false
+Orange,Orange,Fruit,62,1.2,0.2,15.4,100,g,local_csv,false
+Bagel (plain),Bagel,Carbs,270,11,1.5,55,1,piece,local_csv,false
+Cream Cheese (2 tbsp),Cream Cheese,Dairy,100,2,10,2,30,ml,local_csv,false
+Tuna Salad (1/2 cup),Tuna Salad,Seafood,190,19,12,2,1,piece,local_csv,false
+Crackers (5 whole wheat),Crackers,Carbs,90,2,3,14,5,piece,local_csv,false
+Beef Steak (6oz sirloin),Beef Steak,Protein,270,42,10,0,170.1,g,local_csv,false
+Baked Potato (medium),Baked Potato,Vegetable,160,4.3,0.2,36,1,piece,local_csv,false
+Ice Cream (1/2 cup vanilla),Ice Cream,Dessert,145,2.5,7.5,17,1,piece,local_csv,false
+Pizza (1 slice pepperoni),Pizza,FastFood,290,12,12,34,1,piece,local_csv,false
+Avocado Toast (1 slice),Avocado Toast,Other,260,7,15,28,1,piece,local_csv,false
+Hard-Boiled Egg (1 large),Hard-Boiled Egg,Protein,78,6.3,5.3,0.6,1,piece,local_csv,false
+Chicken Wrap (with tortilla),Chicken Wrap,FastFood,410,25,17,38,1,piece,local_csv,false
+Grapes (1 cup),Grapes,Fruit,104,1.1,0.2,27,1,cup,local_csv,false
+Cottage Cheese (1/2 cup),Cottage Cheese,Dairy,90,12,3,5,1,piece,local_csv,false
+Burger (cheeseburger),Burger,FastFood,550,30,30,40,1,piece,local_csv,false
+French Fries (medium),French Fries,Vegetable,340,4,17,44,1,piece,local_csv,false
+Protein Bar,Protein Bar,Drink,210,20,7,22,100,g,local_csv,false
+Black Beans (1/2 cup),Black Beans,Carbs,114,7.6,0.5,20.4,1,piece,local_csv,false
+Salsa (1/4 cup),Salsa,Vegetable,20,0.8,0.1,4.5,1,piece,local_csv,false
+Chicken Noodle Soup (1 can),Chicken Noodle Soup,FastFood,150,7,5,18,1,piece,local_csv,false
+Peanut Butter (2 tbsp),Peanut Butter,Snack,190,7,16,8,30,ml,local_csv,false
+Celery Sticks (1 cup),Celery Sticks,Vegetable,14,0.6,0.2,3,1,cup,local_csv,false
+Cod (4oz baked),Cod,Seafood,95,20,0.8,0,113.4,g,local_csv,false
+Green Beans (1 cup),Green Beans,Vegetable,31,1.8,0.2,7,1,cup,local_csv,false
+Chocolate Chip Cookie (1 large),Chocolate Chip Cookie,Dessert,220,2.5,11,30,1,piece,local_csv,false
+"Tea (Green, 1 cup)",Tea,Drink,2,0.5,0,0,1,cup,local_csv,false
+Shrimp (3oz steamed),Shrimp,Seafood,84,20,0.2,0.2,85.05,g,local_csv,false
+Pancakes (2 medium),Pancakes,Carbs,180,5,5,30,2,piece,local_csv,false
+Maple Syrup (2 tbsp),Maple Syrup,Other,104,0,0,27,30,ml,local_csv,false
+Sausage Link (1 cooked),Sausage Link,Protein,85,5,7,1,1,piece,local_csv,false
+Smoothie (Fruit & Yogurt),Smoothie,Drink,280,12,3,55,1,piece,local_csv,false
+Tofu (4oz firm),Tofu,Protein,90,10,5,3,113.4,g,local_csv,false
+Brown Rice (1 cup cooked),Brown Rice,Carbs,215,5,1.8,45,1,cup,local_csv,false
+Bell Pepper (1 medium red),Bell Pepper,Vegetable,31,1.2,0.3,6,1,piece,local_csv,false
+Hummus (2 tbsp),Hummus,Carbs,70,2,5,4,30,ml,local_csv,false
+Pita Bread (1 whole wheat),Pita Bread,Carbs,170,6,1.5,35,1,piece,local_csv,false
+Pork Chop (4oz grilled),Pork Chop,Protein,220,30,10,0,113.4,g,local_csv,false
+Mashed Potatoes (1 cup),Mashed Potatoes,Vegetable,230,4,8,35,1,cup,local_csv,false
+Corn (1 cup),Corn,Vegetable,132,4.7,1.8,30,1,cup,local_csv,false
+Soda (1 can Coke),Soda,Drink,140,0,0,39,1,piece,local_csv,false
+Pretzels (1 oz),Pretzels,Carbs,110,3,1,23,28.35,g,local_csv,false
+Cheddar Cheese (1 oz),Cheddar Cheese,Dairy,115,7,9.5,1,28.35,g,local_csv,false
+Caesar Salad (with chicken),Caesar Salad,Protein,470,30,30,15,1,piece,local_csv,false
+Orange Juice (1 cup),Orange Juice,Drink,112,1.7,0.5,25.8,1,cup,local_csv,false
+Bacon (2 slices cooked),Bacon,Protein,86,6,6.8,0.2,2,piece,local_csv,false
+Waffles (2 homemade),Waffles,Carbs,220,6,9,28,2,piece,local_csv,false
+Pear,Pear,Fruit,101,0.6,0.2,27,100,g,local_csv,false
+Chicken Breast (4oz roasted),Chicken Breast,Protein,185,35,4,0,113.4,g,local_csv,false
+Mixed Nuts (1/4 cup),Mixed Nuts,Snack,200,6,18,8,1,piece,local_csv,false
+Tilapia (4oz baked),Tilapia,Seafood,110,22,2.5,0,113.4,g,local_csv,false
+Asparagus (1 cup steamed),Asparagus,Vegetable,40,4.3,0.4,7.4,1,cup,local_csv,false
+Sweet Potato (1 medium baked),Sweet Potato,Vegetable,103,2.3,0.2,23.6,1,piece,local_csv,false
+Popcorn (3 cups air-popped),Popcorn,Carbs,93,3,1.1,18.6,3,cup,local_csv,false
+Raisins (1/4 cup),Raisins,Fruit,130,1.3,0.2,34,1,piece,local_csv,false
+Macaroni & Cheese (1 cup),Macaroni & Cheese,Carbs,350,10,17,40,1,cup,local_csv,false
+Tomato Soup (1 can),Tomato Soup,Vegetable,170,4,6,25,1,piece,local_csv,false
+Grilled Cheese Sandwich,Grilled Cheese Sandwich,FastFood,390,15,22,32,100,g,local_csv,false
+Beef Tacos (2 hard shell),Beef Tacos,FastFood,380,18,22,28,2,piece,local_csv,false
+Refried Beans (1/2 cup),Refried Beans,Carbs,115,7,1,19,1,piece,local_csv,false
+Guacamole (1/4 cup),Guacamole,Vegetable,90,1,8,4,1,piece,local_csv,false
+Watermelon (1 cup diced),Watermelon,Fruit,46,0.9,0.2,11.5,1,cup,local_csv,false
+English Muffin (whole wheat),English Muffin,Carbs,134,6,1,26,1,piece,local_csv,false
+Peanut Butter & Jelly Sandwich,Peanut Butter & Jelly Sandwich,FastFood,390,12,17,50,100,g,local_csv,false
+Clam Chowder (1 cup),Clam Chowder,Seafood,200,10,9,18,1,cup,local_csv,false
+Iced Tea (Sweetened 16oz),Iced Tea,Drink,180,0,0,46,453.59,g,local_csv,false
+Lasagna (1 serving meat),Lasagna,Carbs,350,20,17,30,1,piece,local_csv,false
+Garlic Bread (1 slice),Garlic Bread,Carbs,150,4,7,18,1,piece,local_csv,false
+Chocolate Milk (1 cup),Chocolate Milk,Drink,200,8,8,26,1,cup,local_csv,false
+White Bread (1 slice),White Bread,Carbs,70,2,1,13,1,piece,local_csv,false
+Jelly (1 tbsp grape),Jelly,Other,50,0,0,13,15,ml,local_csv,false
+Veggie Burger (1 patty),Veggie Burger,Protein,120,11,4,10,1,piece,local_csv,false
+Bun (hamburger),Bun,Carbs,140,4,2,26,1,piece,local_csv,false
+Ketchup (1 tbsp),Ketchup,Other,20,0.2,0.1,5,15,ml,local_csv,false
+Muffin (Blueberry 1 large),Muffin,Dessert,380,5,16,55,1,piece,local_csv,false
+Coffee (with cream/sugar),Coffee,Drink,50,0.5,3,5,1,piece,local_csv,false
+Potato Chips (1 oz),Potato Chips,Snack,160,2,10,15,28.35,g,local_csv,false
+Tzatziki Sauce (2 tbsp),Tzatziki Sauce,Dairy,30,1.5,2,2,30,ml,local_csv,false
+Scallops (3oz seared),Scallops,Seafood,95,17,1,5,85.05,g,local_csv,false
+Risotto (Mushroom 1 cup),Risotto,Carbs,250,7,9,35,1,cup,local_csv,false
+Caprese Salad,Caprese Salad,Vegetable,240,10,18,8,100,g,local_csv,false
+Balsamic Vinaigrette (2 tbsp),Balsamic Vinaigrette,Other,90,0,9,3,30,ml,local_csv,false
+Cherries (1 cup),Cherries,Fruit,77,1.6,0.5,19,1,cup,local_csv,false
+Turkey Bacon (2 slices),Turkey Bacon,Protein,70,6,5,1,2,piece,local_csv,false
+Grits (1 cup cooked),Grits,Carbs,150,3,1,32,1,cup,local_csv,false
+Butter (1 tbsp),Butter,Dairy,100,0.1,11,0,15,ml,local_csv,false
+Meatball Sub (6 inch),Meatball Sub,FastFood,580,28,27,55,6,piece,local_csv,false
+Kiwifruit (1 medium),Kiwifruit,Fruit,46,0.9,0.4,11.1,1,piece,local_csv,false
+Beef Jerky (1 oz),Beef Jerky,Snack,116,9.4,7.2,3.1,28.35,g,local_csv,false
+Figs (2 medium),Figs,Fruit,74,0.6,0.3,19.2,2,piece,local_csv,false
+Lobster (3oz steamed),Lobster,Seafood,76,16,0.7,0,85.05,g,local_csv,false
+Melted Butter (for lobster),Melted Butter,Other,200,0.2,22,0,1,piece,local_csv,false
+Corn on the Cob (1 large),Corn on the Cob,Vegetable,125,5,1.5,29,1,piece,local_csv,false
+Vegetable Soup (1 can),Vegetable Soup,Vegetable,140,4,4,22,1,piece,local_csv,false
+Saltine Crackers (5 crackers),Saltine Crackers,Carbs,60,1,1.5,10,5,piece,local_csv,false
+Mango (1 cup slices),Mango,Fruit,99,1.4,0.6,24.7,1,cup,local_csv,false
+Cheesecake (1 slice),Cheesecake,Dessert,320,5,21,28,1,piece,local_csv,false
+Pad Thai (Chicken 1.5 cups),Pad Thai,Carbs,550,25,22,60,1.5,cup,local_csv,false
+Spring Roll (Veg 2 rolls),Spring Roll,Snack,180,4,7,25,2,piece,local_csv,false
+Coconut Water (1 cup),Coconut Water,Drink,46,1.7,0.5,8.9,1,cup,local_csv,false
+Kimchi (1/2 cup),Kimchi,Vegetable,22,1.7,0.4,4,1,piece,local_csv,false
+Sashimi (Salmon 3 pcs),Sashimi,Seafood,120,18,5,0,3,piece,local_csv,false
+Wasabi (1 tsp),Wasabi,Other,10,0.1,0.1,2.2,5,ml,local_csv,false
+Seaweed Salad (1/2 cup),Seaweed Salad,Vegetable,60,2,3,8,1,piece,local_csv,false
+French Onion Soup (1 cup),French Onion Soup,FastFood,150,6,7,15,1,cup,local_csv,false
+Croutons (1/4 cup),Croutons,Carbs,50,1.5,2,7,1,piece,local_csv,false
+Shepherd's Pie (1 serving),Shepherd's Pie,FastFood,400,20,20,35,1,piece,local_csv,false
+Green Peas (1/2 cup),Green Peas,Carbs,62,4.1,0.2,11.1,1,piece,local_csv,false
+Apple Pie (1 slice),Apple Pie,Dessert,410,3,19,58,1,piece,local_csv,false
+Gin & Tonic (1 drink),Gin & Tonic,Drink,170,0,0,13,1,piece,local_csv,false
+Red Wine (5 oz glass),Red Wine,Drink,125,0.1,0,3.8,141.75,g,local_csv,false
+Halibut (4oz baked),Halibut,Seafood,125,24,2.5,0,113.4,g,local_csv,false
+Quinoa Salad (1 cup),Quinoa Salad,Other,260,9,12,32,1,cup,local_csv,false
+Lemonade (1 cup),Lemonade,Drink,99,0.1,0,26,1,cup,local_csv,false
+Pistachios (1 oz shelled),Pistachios,Snack,159,5.7,12.8,7.7,28.35,g,local_csv,false
+Oat Milk (1 cup),Oat Milk,Drink,120,3,5,16,1,cup,local_csv,false
+Biscuits and Gravy (1 serving),Biscuits and Gravy,FastFood,480,10,28,45,1,piece,local_csv,false
+Avocado (1/2 fruit),Avocado,Fruit,160,2,14.7,8.5,1,piece,local_csv,false
+Corn Flakes (1 cup),Corn Flakes,Carbs,100,2,0,24,1,cup,local_csv,false
+T-Bone Steak (6oz),T-Bone Steak,Protein,460,38,33,0,170.1,g,local_csv,false
+Creamed Spinach (1/2 cup),Creamed Spinach,Vegetable,190,5,16,8,1,piece,local_csv,false
+Pecans (1 oz),Pecans,Snack,196,2.6,20.4,3.9,28.35,g,local_csv,false
+Fruit Cocktail (canned 1 cup),Fruit Cocktail,Fruit,110,1,0,28,1,cup,local_csv,false
+Ramen (Instant 1 pack),Ramen,FastFood,380,9,14,53,1,piece,local_csv,false
+Mocha Latte (16oz),Mocha Latte,Drink,360,12,15,48,453.59,g,local_csv,false
+Cucumber Slices (1 cup),Cucumber Slices,Vegetable,16,0.7,0.1,3.6,1,cup,local_csv,false
+Feta Cheese (1 oz),Feta Cheese,Dairy,75,4,6.1,1.2,28.35,g,local_csv,false
+Olives (Kalamata 5 large),Olives,Fruit,35,0.2,3.5,1,5,piece,local_csv,false
+Chicken Alfredo (1.5 cups),Chicken Alfredo,Carbs,680,35,38,45,1.5,cup,local_csv,false
+Breadstick (1 large),Breadstick,Carbs,160,4,3,28,1,piece,local_csv,false
+Cobb Salad,Cobb Salad,Protein,510,30,38,12,100,g,local_csv,false
+Blue Cheese Dressing (2 tbsp),Blue Cheese Dressing,Other,150,1,16,2,30,ml,local_csv,false
+Mandarin Orange (1 medium),Mandarin Orange,Fruit,37,0.6,0.2,9.3,1,piece,local_csv,false
+Cashews (1 oz roasted),Cashews,Snack,163,4.3,13.1,9.2,28.35,g,local_csv,false
+Eggo Waffle (2 waffles),Eggo Waffle,Carbs,180,4,5,30,2,piece,local_csv,false
+Pulled Pork Sandwich,Pulled Pork Sandwich,FastFood,480,25,20,48,100,g,local_csv,false
+Macadamia Nuts (1 oz),Macadamia Nuts,Snack,204,2.2,21.5,3.9,28.35,g,local_csv,false
+Crab Cakes (2 medium),Crab Cakes,Seafood,340,20,20,18,2,piece,local_csv,false
+Tartar Sauce (2 tbsp),Tartar Sauce,Other,60,0.2,5.5,2,30,ml,local_csv,false
+Lemon Bar (1 square),Lemon Bar,Dessert,150,1.5,6,22,1,piece,local_csv,false
+Almond Milk (Unsweetened 1 cup),Almond Milk,Drink,30,1,2.5,1,1,cup,local_csv,false
+Rice Krispies (1.5 cups),Rice Krispies,Carbs,160,3,0.5,37,1.5,cup,local_csv,false
+Sugar (1 tsp for cereal),Sugar,Other,16,0,0,4,5,ml,local_csv,false
+Tuna (Canned 3oz in water),Tuna,Seafood,90,20,1,0,85.05,g,local_csv,false
+Mayonnaise (1 tbsp),Mayonnaise,Other,90,0.1,10,0.1,15,ml,local_csv,false
+Pickle (1 spear dill),Pickle,Vegetable,5,0.2,0.1,1,1,piece,local_csv,false
+Lobster Bisque (1 cup),Lobster Bisque,Seafood,250,8,18,12,1,cup,local_csv,false
+Reuben Sandwich,Reuben Sandwich,FastFood,650,28,40,35,100,g,local_csv,false
+Sauerkraut (1/4 cup side),Sauerkraut,Vegetable,7,0.3,0,1.5,1,piece,local_csv,false
+Mushroom (White 1 cup sliced),Mushroom,Vegetable,15,2.2,0.2,2.3,1,cup,local_csv,false
+Soy Milk (Original 1 cup),Soy Milk,Drink,110,8,4.5,9,1,cup,local_csv,false
+Chicken Tikka Masala (1.5 cups),Chicken Tikka Masala,FastFood,480,30,30,20,1.5,cup,local_csv,false
+Naan Bread (1 piece),Naan Bread,Carbs,260,8,5,45,1,piece,local_csv,false
+Cucumber Salad (1/2 cup),Cucumber Salad,Vegetable,40,1,2,5,1,piece,local_csv,false
+Vodka Soda (1 drink),Vodka Soda,Drink,100,0,0,0,1,piece,local_csv,false
+Chocolate Croissant,Chocolate Croissant,Dessert,350,6,19,40,100,g,local_csv,false
+Sweet & Sour Chicken (1 cup),Sweet & Sour Chicken,FastFood,380,18,15,45,1,cup,local_csv,false
+Egg Drop Soup (1 cup),Egg Drop Soup,Vegetable,65,5,2,6,1,cup,local_csv,false
+String Cheese (1 stick),String Cheese,Dairy,80,6,6,1,1,piece,local_csv,false
+Turkey Burger (1 patty),Turkey Burger,Protein,160,22,8,2,1,piece,local_csv,false
+"Mustard (1 tbsp, yellow)",Mustard,Other,10,0.5,0.5,1,15,ml,local_csv,false
+Potato Salad (1/2 cup),Potato Salad,Vegetable,180,2,11,19,1,piece,local_csv,false
+Cranberry Juice (1 cup),Cranberry Juice,Drink,130,0,0,33,1,cup,local_csv,false
+"Spinach (1 cup, raw)",Spinach,Vegetable,7,0.9,0.1,1.1,1,cup,local_csv,false
+Chicken Piccata (1 serving),Chicken Piccata,FastFood,350,30,20,10,1,piece,local_csv,false
+Angel Hair Pasta (1 cup),Angel Hair Pasta,Carbs,200,7,1,42,1,cup,local_csv,false
+Olive Oil (1 tbsp),Olive Oil,Other,120,0,14,0,15,ml,local_csv,false
+Garlic (1 clove),Garlic,Vegetable,4,0.2,0,0.9,1,piece,local_csv,false
+Salami (3 slices),Salami,Protein,110,6,9,1,3,piece,local_csv,false
+Provolone Cheese (1 slice),Provolone Cheese,Dairy,100,7,8,1,1,piece,local_csv,false
+Ginger Ale (1 can),Ginger Ale,Drink,124,0,0,32,1,piece,local_csv,false
+Shrimp Scampi (1 cup),Shrimp Scampi,Seafood,380,22,15,40,1,cup,local_csv,false
+Tiramisu (1 slice),Tiramisu,Dessert,450,7,28,42,1,piece,local_csv,false
+Cereal Bar (Fruit),Cereal Bar,Snack,140,2,3,30,1,piece,local_csv,false
+Veal Parmesan (1 serving),Veal Parmesan,FastFood,550,40,30,30,1,piece,local_csv,false
+Spaghetti (side),Spaghetti,Carbs,100,3.5,0.5,21,1,piece,local_csv,false
+Hot Chocolate (1 cup),Hot Chocolate,Drink,200,3,8,30,1,cup,local_csv,false
+Coconut Shrimp (5 pcs),Coconut Shrimp,Seafood,320,10,20,25,5,piece,local_csv,false
+Sweet Chili Sauce (2 tbsp),Sweet Chili Sauce,Other,70,0,0,17,30,ml,local_csv,false
+White Wine (5 oz glass),White Wine,Drink,121,0.1,0,3.8,141.75,g,local_csv,false
+Trail Mix (1/4 cup),Trail Mix,Snack,190,5,12,20,1,piece,local_csv,false
+Onion Rings (6 rings),Onion Rings,Snack,280,4,16,30,6,piece,local_csv,false
+Poached Egg (1 large),Poached Egg,Protein,72,6.3,4.8,0.4,1,piece,local_csv,false
+Canadian Bacon (2 slices),Canadian Bacon,Protein,80,12,3,1,2,piece,local_csv,false
+Eggs Benedict (1 serving),Eggs Benedict,Protein,600,25,40,30,1,piece,local_csv,false
+Hollandaise Sauce (2 tbsp),Hollandaise Sauce,Other,110,1,12,0.5,30,ml,local_csv,false
+Spinach Artichoke Dip (1/4 cup),Spinach Artichoke Dip,Snack,160,5,14,6,1,piece,local_csv,false
+Tortilla Chips (1 oz),Tortilla Chips,Snack,140,2,7,19,28.35,g,local_csv,false
+Chicken Kebab (2 skewers),Chicken Kebab,FastFood,280,30,14,8,2,piece,local_csv,false
+Bell Peppers & Onions (sautéed),Bell Peppers & Onions,Vegetable,60,1.5,2,10,1,piece,local_csv,false
+Hummus Wrap (large),Hummus Wrap,Other,450,15,18,60,1,piece,local_csv,false
+Kombucha (1 cup),Kombucha,Drink,30,0,0,7,1,cup,local_csv,false
+Beef Stroganoff (1.5 cups),Beef Stroganoff,Carbs,550,30,28,40,1.5,cup,local_csv,false
+Egg Noodles (1 cup cooked),Egg Noodles,Carbs,220,8,3,40,1,cup,local_csv,false
+Cottage Cheese (1 cup low fat),Cottage Cheese,Dairy,160,28,2.5,6,1,cup,local_csv,false
+Tomato (1 medium sliced),Tomato,Vegetable,22,1.1,0.2,4.8,1,piece,local_csv,false
+Black Pepper (1 tsp),Black Pepper,Other,6,0.2,0.1,1.5,5,ml,local_csv,false
+Chocolate Pudding (1/2 cup),Chocolate Pudding,Dessert,150,2,4,28,1,piece,local_csv,false
+Mackerel (3oz cooked),Mackerel,Seafood,175,16,12,0,85.05,g,local_csv,false
+Collard Greens (1 cup cooked),Collard Greens,Vegetable,60,5,1,10,1,cup,local_csv,false
+Ham (3oz deli sliced),Ham,Protein,110,16,4,2,85.05,g,local_csv,false
+Swiss Cheese (1 slice),Swiss Cheese,Dairy,106,7.6,8,1,1,piece,local_csv,false
+Rye Bread (1 slice),Rye Bread,Carbs,83,2.7,1.1,15.5,1,piece,local_csv,false
+Potato Leek Soup (1 cup),Potato Leek Soup,Vegetable,180,4,7,25,1,cup,local_csv,false
+Brie Cheese (1 oz),Brie Cheese,Dairy,95,6,7.9,0.1,28.35,g,local_csv,false
+Water Cracker (5 crackers),Water Cracker,Carbs,70,1.5,1.5,12,5,piece,local_csv,false
+Grapefruit (1/2 medium),Grapefruit,Fruit,52,1.1,0.2,13.2,1,piece,local_csv,false
+Veggie Straws (1 oz),Veggie Straws,Snack,130,1,7,17,28.35,g,local_csv,false
+Fish Tacos (2 tacos),Fish Tacos,Seafood,420,25,18,40,2,piece,local_csv,false
+Cabbage Slaw (side),Cabbage Slaw,Vegetable,60,1,3,8,1,piece,local_csv,false
+Lime (juice of 1),Lime,Other,11,0.2,0,3.7,1,piece,local_csv,false
+Beer (12 oz light),Beer,Drink,103,0.9,0,5.8,340.19,g,local_csv,false
+Danish (Cheese 1 medium),Danish,Dessert,340,7,18,38,1,piece,local_csv,false
+Kefir (Plain 1 cup),Kefir,Drink,104,10,2.5,10,1,cup,local_csv,false
+Gnocchi (1 cup),Gnocchi,Carbs,210,4.5,1.5,45,1,cup,local_csv,false
+Pesto Sauce (1/4 cup),Pesto Sauce,Other,260,5,26,4,1,piece,local_csv,false
+Pine Nuts (1 tbsp),Pine Nuts,Snack,95,2,10,2,15,ml,local_csv,false
+Chai Latte (12 oz),Chai Latte,Drink,190,7,4,32,340.19,g,local_csv,false
+Manicotti (2 shells cheese),Manicotti,Carbs,380,20,18,35,2,piece,local_csv,false
+Italian Sausage (1 link),Italian Sausage,Protein,200,12,16,3,1,piece,local_csv,false
+Jicama (1 cup sticks),Jicama,Vegetable,46,0.9,0.1,10.6,1,cup,local_csv,false
+Chili Powder (1 tsp),Chili Powder,Other,8,0.3,0.4,1.4,5,ml,local_csv,false
+Ants on a Log (4 pcs),Ants on a Log,Snack,180,6,12,12,4,piece,local_csv,false
+Split Pea Soup (1 cup),Split Pea Soup,Carbs,180,11,2,30,1,cup,local_csv,false
+Ham & Cheese Croissant,Ham & Cheese Croissant,FastFood,400,15,22,35,100,g,local_csv,false
+Espresso (double shot),Espresso,Drink,5,0.5,0.1,0,1,piece,local_csv,false
+Ricotta Cheese (1/4 cup),Ricotta Cheese,Dairy,85,5.5,6,2.5,1,piece,local_csv,false
+Chicken & Rice Soup (1 can),Chicken & Rice Soup,FastFood,130,7,3,18,1,piece,local_csv,false
+Guava,Guava,Fruit,68,2.6,0.9,14.3,100,g,local_csv,false
+Club Sandwich,Club Sandwich,FastFood,580,35,30,40,100,g,local_csv,false
+Pickle (1 whole dill),Pickle,Vegetable,17,0.8,0.2,3.7,1,piece,local_csv,false
+Turkey Chili (1 cup),Turkey Chili,FastFood,250,22,7,25,1,cup,local_csv,false
+Sour Cream (2 tbsp),Sour Cream,Dairy,60,0.8,5.8,1.3,30,ml,local_csv,false
+Shredded Cheese (Cheddar 1/4 cup),Shredded Cheese,Dairy,115,7,9.5,1,1,piece,local_csv,false
+Matcha Latte (12 oz),Matcha Latte,Drink,180,6,5,28,340.19,g,local_csv,false
+Chocolate Donut (1 medium),Chocolate Donut,Dessert,300,4,17,35,1,piece,local_csv,false
+Tuna Melt,Tuna Melt,FastFood,450,25,25,32,100,g,local_csv,false
+Apple Cider (1 cup),Apple Cider,Drink,117,0.1,0.3,29,1,cup,local_csv,false
+Beef Burrito (large),Beef Burrito,FastFood,650,30,28,70,1,piece,local_csv,false
+Pico de Gallo (1/4 cup),Pico de Gallo,Other,15,0.5,0,3,1,piece,local_csv,false
+Corn Tortilla (1 medium),Corn Tortilla,Carbs,52,1.4,0.7,11.2,1,piece,local_csv,false
+Mussels (3oz steamed),Mussels,Seafood,146,20,4,6,85.05,g,local_csv,false
+White Wine Sauce (1/4 cup),White Wine Sauce,Other,80,1,6,4,1,piece,local_csv,false
+French Bread (2 slices),French Bread,Carbs,180,6,1,36,2,piece,local_csv,false
+Blackberries (1 cup),Blackberries,Fruit,62,2,0.7,13.8,1,cup,local_csv,false
+Cheese Danish,Cheese Danish,Dessert,340,7,18,38,100,g,local_csv,false
+Chicken Salad Sandwich,Chicken Salad Sandwich,FastFood,420,20,20,35,100,g,local_csv,false
+Soyrizo (2 oz),Soyrizo,Protein,140,10,9,6,56.7,g,local_csv,false
+Hash Browns (1 cup),Hash Browns,Vegetable,330,3,19,38,1,cup,local_csv,false
+Ketchup (1 packet),Ketchup,Other,10,0.1,0,2.5,1,piece,local_csv,false
+Philly Cheesesteak (6 inch),Philly Cheesesteak,FastFood,500,25,28,40,6,piece,local_csv,false
+Cheese Whiz (2 tbsp),Cheese Whiz,Other,90,4,7,3,30,ml,local_csv,false
+Onions (sautéed 1/4 cup),Onions,Vegetable,30,0.5,1,5,1,piece,local_csv,false
+Raspberries (1 cup),Raspberries,Fruit,64,1.5,0.8,14.7,1,cup,local_csv,false
+Cheesy Grits (1 cup),Cheesy Grits,Carbs,210,6,6,34,1,cup,local_csv,false
+Collard Greens (with ham hock),Collard Greens,Vegetable,180,10,9,15,1,piece,local_csv,false
+Fried Okra (1 cup),Fried Okra,Vegetable,220,4,12,25,1,cup,local_csv,false
+Sweet Tea (16 oz),Sweet Tea,Drink,180,0,0,46,453.59,g,local_csv,false
+Gyro (1 sandwich),Gyro,FastFood,600,25,30,55,1,piece,local_csv,false
+Pita Bread (White 1 large),Pita Bread,Carbs,220,7,2,45,1,piece,local_csv,false
+Baklava (1 piece),Baklava,Dessert,280,3,18,30,1,piece,local_csv,false
+Coconut (shredded 1/4 cup),Coconut,Fruit,110,1,10.5,4.5,1,piece,local_csv,false
+S'more (1 serving),S'more,Dessert,140,2,4,25,1,piece,local_csv,false
+Graham Cracker (1 large rectangle),Graham Cracker,Carbs,60,1,1.5,11,1,piece,local_csv,false
+Marshmallow (1 large),Marshmallow,Dessert,23,0.1,0,5.8,1,piece,local_csv,false
+Chocolate (Hershey's bar 1 segment),Chocolate,Dessert,25,0.3,1.5,3,1,piece,local_csv,false
+Chicken Parm Sandwich,Chicken Parm Sandwich,FastFood,650,40,30,55,100,g,local_csv,false
+Mozzarella (1 slice),Mozzarella,Dairy,80,6,6,1,1,piece,local_csv,false
+Bread Roll (hoagie),Bread Roll,Carbs,200,6,2,38,1,piece,local_csv,false
+Artichoke (1 medium steamed),Artichoke,Vegetable,60,4.2,0.2,13.4,1,piece,local_csv,false
+Mayonnaise (1 tbsp for dipping),Mayonnaise,Other,90,0.1,10,0.1,15,ml,local_csv,false
+Calamari (fried 3oz),Calamari,Seafood,150,13,7,8,85.05,g,local_csv,false
+Lemon Wedge (for calamari),Lemon Wedge,Other,3,0.1,0,1,1,piece,local_csv,false
+Root Beer (1 can),Root Beer,Drink,150,0,0,40,1,piece,local_csv,false
+Chicken McNuggets (6 pcs),Chicken McNuggets,FastFood,270,15,16,16,6,piece,local_csv,false
+BBQ Sauce (2 tbsp),BBQ Sauce,Other,60,0.5,0,15,30,ml,local_csv,false
+Honey (1 tbsp),Honey,Other,64,0.1,0,17.3,15,ml,local_csv,false
+Tofu Scramble,Tofu Scramble,Other,250,20,16,8,100,g,local_csv,false
+Turmeric (1 tsp),Turmeric,Other,9,0.3,0.1,1.9,5,ml,local_csv,false
+Nutritional Yeast (1 tbsp),Nutritional Yeast,Other,20,3,0,2,15,ml,local_csv,false
+Seitan (3oz),Seitan,Protein,90,18,1,4,85.05,g,local_csv,false
+Vegetable Broth (1 cup),Vegetable Broth,Drink,15,1,0,3,1,cup,local_csv,false
+Mashed Cauliflower (1 cup),Mashed Cauliflower,Vegetable,140,5,8,12,1,cup,local_csv,false
+Peanut Sauce (2 tbsp),Peanut Sauce,Other,80,2,6,4,30,ml,local_csv,false
+Tempeh (3oz),Tempeh,Protein,160,16,9,8,85.05,g,local_csv,false
+Sauerkraut (1/2 cup),Sauerkraut,Vegetable,14,0.7,0.1,3.1,1,piece,local_csv,false
+Rye Crispbread (2 slices),Rye Crispbread,Carbs,70,2,0.5,14,2,piece,local_csv,false
+Capers (1 tbsp),Capers,Other,2,0.2,0.1,0.4,15,ml,local_csv,false
+Chicken Liver (2 oz cooked),Chicken Liver,Protein,91,13.6,3.6,0.6,56.7,g,local_csv,false
+Onion (1/2 cup raw chopped),Onion,Vegetable,32,0.9,0.1,7.5,1,piece,local_csv,false
+Bok Choy (1 cup steamed),Bok Choy,Vegetable,10,1.5,0.1,2,1,cup,local_csv,false
+Gummy Bears (10 pcs),Gummy Bears,Snack,100,2,0,22,10,piece,local_csv,false
+Whiskey (1.5 oz shot),Whiskey,Drink,105,0,0,0.1,42.52,g,local_csv,false
+Dates (2 medium Medjool),Dates,Fruit,133,0.8,0.1,36,2,piece,local_csv,false
+Tahini (1 tbsp),Tahini,Other,89,2.6,8,3.2,15,ml,local_csv,false
+Chickpeas (1/2 cup canned),Chickpeas,Carbs,135,7,2,22,1,piece,local_csv,false
+Lettuce (Romaine 2 cups),Lettuce,Vegetable,16,1,0.3,3,2,cup,local_csv,false
+Italian Dressing (2 tbsp),Italian Dressing,Other,70,0,7,3,30,ml,local_csv,false
+Turkey Sausage (1 patty),Turkey Sausage,Protein,70,9,4,1,1,piece,local_csv,false
+Maple Syrup (1 tbsp),Maple Syrup,Other,52,0,0,13.5,15,ml,local_csv,false
+"Margarita (1 drink, 4oz)",Margarita,Drink,200,0.1,0,20,1,piece,local_csv,false
+Quesadilla (Cheese 1 medium),Quesadilla,FastFood,400,18,22,35,1,piece,local_csv,false
+Sour Cream (1 tbsp),Sour Cream,Dairy,30,0.4,2.9,0.6,15,ml,local_csv,false
+Salsa (2 tbsp),Salsa,Other,10,0.5,0,2,30,ml,local_csv,false
+Red Cabbage (1 cup raw),Red Cabbage,Vegetable,22,1.1,0.1,5.2,1,cup,local_csv,false
+Duck (3oz roasted),Duck,Protein,285,16,24,0,85.05,g,local_csv,false
+Orange Sauce (1/4 cup for duck),Orange Sauce,Other,90,0.5,0,22,1,piece,local_csv,false
+Wild Rice (1 cup cooked),Wild Rice,Carbs,166,6.5,0.6,35,1,cup,local_csv,false
+Cupcake (Vanilla 1 medium),Cupcake,Dessert,240,2,11,35,1,piece,local_csv,false
+Frosting (Vanilla 2 tbsp),Frosting,Other,140,0,6,22,30,ml,local_csv,false
+Bison Burger (1 patty),Bison Burger,Protein,150,22,7,0,1,piece,local_csv,false
+Pretzel Bun (1 medium),Pretzel Bun,Carbs,230,8,2,45,1,piece,local_csv,false
+Spicy Mustard (1 tbsp),Spicy Mustard,Other,10,0.5,0.5,1,15,ml,local_csv,false
+Pasta Salad (1 cup),Pasta Salad,Carbs,280,8,14,30,1,cup,local_csv,false
+Pepperoncini (2 peppers),Pepperoncini,Vegetable,10,0.5,0,2,2,piece,local_csv,false
+Coconut Milk (1/4 cup canned),Coconut Milk,Other,111,1.1,11.6,2.9,1,piece,local_csv,false
+Green Curry Paste (1 tbsp),Green Curry Paste,Other,30,0.5,2.5,2,15,ml,local_csv,false
+Chicken Thigh (1 roasted),Chicken Thigh,Protein,210,24,13,0,1,piece,local_csv,false
+Jasmine Rice (1 cup cooked),Jasmine Rice,Carbs,205,4.3,0.4,45,1,cup,local_csv,false
+Thai Iced Tea (1 glass),Thai Iced Tea,Drink,250,3,12,35,1,piece,local_csv,false
+Papaya (1 cup cubes),Papaya,Fruit,62,0.6,0.4,15.7,1,cup,local_csv,false
+Lime Juice (1 tbsp),Lime Juice,Other,4,0.1,0,1.3,15,ml,local_csv,false
+Macaroni Salad (1 cup),Macaroni Salad,Carbs,380,8,25,30,1,cup,local_csv,false
+Celery (1 stalk),Celery,Vegetable,6,0.3,0.1,1.2,1,piece,local_csv,false
+Blue Cheese (1 oz),Blue Cheese,Dairy,100,6,8,0.7,28.35,g,local_csv,false
+Dark Chocolate (1 oz 70%),Dark Chocolate,Dessert,170,2.2,12,13,28.35,g,local_csv,false
+Acai Bowl (1 serving),Acai Bowl,Fruit,350,5,12,60,1,piece,local_csv,false
+Granola (1/4 cup topping),Granola,Carbs,120,3,6,15,1,piece,local_csv,false
+Coconut Flakes (1 tbsp topping),Coconut Flakes,Fruit,35,0.3,3.3,1.5,15,ml,local_csv,false
+Honey (1 tsp drizzle),Honey,Other,21,0,0,5.8,5,ml,local_csv,false
+Shrimp Cocktail (4 large shrimp),Shrimp Cocktail,Seafood,60,10,1,1,4,piece,local_csv,false
+Cocktail Sauce (2 tbsp),Cocktail Sauce,Other,30,0.5,0,7,30,ml,local_csv,false
+Pork Bun (1 steamed),Pork Bun,FastFood,220,8,8,30,1,piece,local_csv,false
+Dim Sum (Siu Mai 3 pcs),Dim Sum,FastFood,180,12,10,10,3,piece,local_csv,false
+Soy Sauce (1 tbsp for dipping),Soy Sauce,Other,9,1,0,1,15,ml,local_csv,false
+Oyster (1 medium raw),Oyster,Seafood,8,1,0.2,0.5,1,piece,local_csv,false
+Mignonette Sauce (1 tbsp),Mignonette Sauce,Other,5,0,0,1,15,ml,local_csv,false
+Beef Pho (1 large bowl),Beef Pho,Other,450,30,12,55,1,bowl,local_csv,false
+Bean Sprouts (1/4 cup garnish),Bean Sprouts,Vegetable,8,0.8,0.1,1.5,1,piece,local_csv,false
+Thai Basil (garnish),Thai Basil,Other,1,0.1,0,0,1,piece,local_csv,false
+Lime Wedge (garnish),Lime Wedge,Other,3,0.1,0,1,1,piece,local_csv,false
+Jalapeno (1 tbsp sliced),Jalapeno,Vegetable,4,0.1,0.1,0.8,15,ml,local_csv,false
+Hoisin Sauce (1 tbsp),Hoisin Sauce,Other,35,0.3,0.2,8,15,ml,local_csv,false
+Sriracha (1 tsp),Sriracha,Other,5,0.1,0.1,1,5,ml,local_csv,false
+Crepe (1 plain),Crepe,Carbs,90,3.5,2,14,1,piece,local_csv,false
+Nutella (1 tbsp),Nutella,Other,100,1.5,6,11,15,ml,local_csv,false
+Powdered Sugar (1 tsp),Powdered Sugar,Other,10,0,0,2.5,5,ml,local_csv,false
+Sake (3 oz),Sake,Drink,117,0.4,0,3.8,85.05,g,local_csv,false
+Edamame (in pod 1 cup),Edamame,Carbs,120,11,5,9,1,cup,local_csv,false
+Biryani (Chicken 1.5 cups),Biryani,FastFood,520,28,18,60,1.5,cup,local_csv,false
+Raita (2 tbsp),Raita,Dairy,30,1,2,2,30,ml,local_csv,false
+Lassi (Mango 1 cup),Lassi,Drink,180,5,4,30,1,cup,local_csv,false
+Samosa (1 piece vegetable),Samosa,Snack,130,2,6,18,1,piece,local_csv,false
+Tamarind Chutney (1 tbsp),Tamarind Chutney,Other,20,0.1,0,5,15,ml,local_csv,false
+Mint Chutney (1 tbsp),Mint Chutney,Other,5,0.2,0,0.5,15,ml,local_csv,false
+Pani Puri (6 pcs),Pani Puri,Snack,200,4,5,35,6,piece,local_csv,false
+Passion Fruit (1 fruit),Passion Fruit,Fruit,17,0.4,0.1,4.2,1,piece,local_csv,false
+Kimchi Jjigae (1 bowl),Kimchi Jjigae,Other,350,15,22,20,1,bowl,local_csv,false
+Silken Tofu (3oz in soup),Silken Tofu,Protein,45,5,2.5,2,85.05,g,local_csv,false
+Pork Belly (1 oz in soup),Pork Belly,Protein,145,3,15,0,28.35,g,local_csv,false
+Gochugaru (1 tsp),Gochugaru,Other,10,0.3,0.3,1.8,5,ml,local_csv,false
+Gochujang (1 tbsp),Gochujang,Other,30,0.5,0,6,15,ml,local_csv,false
+Sesame Oil (1 tsp),Sesame Oil,Other,40,0,4.5,0,5,ml,local_csv,false
+Fish Sauce (1 tsp),Fish Sauce,Other,5,0.4,0,0.5,5,ml,local_csv,false
+"Sugar (1 tsp, in broth)",Sugar,Other,16,0,0,4,5,ml,local_csv,false
+Green Onion (1 tbsp garnish),Green Onion,Vegetable,3,0.2,0,0.7,15,ml,local_csv,false
+Kombucha (16 oz),Kombucha,Drink,60,0,0,14,453.59,g,local_csv,false
+Beef Wellington (1 slice),Beef Wellington,FastFood,600,30,38,35,1,piece,local_csv,false
+Pate (Mushroom 2 tbsp),Pate,Other,70,1,7,2,30,ml,local_csv,false
+Puff Pastry (1 oz wrapper),Puff Pastry,Carbs,115,1.5,8,9,28.35,g,local_csv,false
+Prosciutto (1 slice),Prosciutto,Protein,35,4,2.5,0,1,piece,local_csv,false
+Asparagus (6 spears roasted),Asparagus,Vegetable,40,4,2,4,6,piece,local_csv,false
+Hollandaise Sauce (1 tbsp),Hollandaise Sauce,Other,55,0.5,6,0.2,15,ml,local_csv,false
+Flan (1 slice),Flan,Dessert,220,6,7,35,1,piece,local_csv,false
+Caramel Sauce (1 tbsp),Caramel Sauce,Other,60,0,1,13,15,ml,local_csv,false
+Congee (1 cup plain),Congee,Carbs,130,2.5,1,28,1,cup,local_csv,false
+Pickled Radish (1/4 cup),Pickled Radish,Vegetable,15,0.5,0,3,1,piece,local_csv,false
+Pork Floss (1 tbsp),Pork Floss,Protein,50,4,2,3,15,ml,local_csv,false
+Century Egg (1 egg),Century Egg,Protein,100,7,7,1,1,piece,local_csv,false
+Arugula (2 cups),Arugula,Vegetable,10,1,0.2,0.8,2,cup,local_csv,false
+Goat Cheese (1 oz),Goat Cheese,Dairy,103,6.1,8.5,0.1,28.35,g,local_csv,false
+Beets (1/2 cup roasted),Beets,Vegetable,30,0.8,0.1,6.8,1,piece,local_csv,false
+Walnuts (1 tbsp chopped),Walnuts,Snack,46,1.1,4.6,1,15,ml,local_csv,false
+Balsamic Glaze (1 tbsp),Balsamic Glaze,Other,40,0,0,9,15,ml,local_csv,false
+Bobotie (1 serving),Bobotie,FastFood,450,25,25,30,1,piece,local_csv,false
+Yellow Rice (1 cup),Yellow Rice,Carbs,230,4,1,50,1,cup,local_csv,false
+Chutney (Mango 1 tbsp),Chutney,Other,45,0.1,0.1,11,15,ml,local_csv,false
+Malva Pudding (1 slice),Malva Pudding,Dessert,380,5,14,60,1,piece,local_csv,false
+Custard (1/4 cup),Custard,Other,80,3,3,10,1,piece,local_csv,false
+Bubble Tea (16 oz milk tea),Bubble Tea,Drink,320,2,4,70,453.59,g,local_csv,false
+Tapioca Pearls (1/4 cup boba),Tapioca Pearls,Other,100,0,0,25,1,piece,local_csv,false
+Paella (1.5 cups seafood),Paella,Carbs,550,30,18,70,1.5,cup,local_csv,false
+Chorizo (1 oz in paella),Chorizo,Protein,130,6,11,1,28.35,g,local_csv,false
+Saffron (pinch),Saffron,Other,1,0,0,0.1,1,piece,local_csv,false
+Aioli (Garlic 1 tbsp),Aioli,Other,95,0.1,10.5,0.5,15,ml,local_csv,false
+Gazpacho (1 cup),Gazpacho,Other,90,2,4,12,1,cup,local_csv,false
+Croutons (Garlic 1/4 cup),Croutons,Carbs,50,1.5,2,7,1,piece,local_csv,false
+Olive Oil (1 tsp garnish),Olive Oil,Other,40,0,4.5,0,5,ml,local_csv,false
+Churros (2 sticks),Churros,Dessert,240,3,12,30,2,piece,local_csv,false
+Chocolate Sauce (1 tbsp dipping),Chocolate Sauce,Other,50,0.5,1.5,10,15,ml,local_csv,false
+Cinnamon Sugar (1 tsp),Cinnamon Sugar,Other,20,0,0,5,5,ml,local_csv,false
+Horchata (1 cup),Horchata,Drink,140,2,3,25,1,cup,local_csv,false
+Ceviche (1 cup fish),Ceviche,Seafood,180,25,2,15,1,cup,local_csv,false
+Red Onion (1/4 cup in ceviche),Red Onion,Vegetable,16,0.3,0,3.7,1,piece,local_csv,false
+Cilantro (2 tbsp garnish),Cilantro,Other,1,0.1,0,0,30,ml,local_csv,false
+Corn Nuts (1 oz),Corn Nuts,Snack,130,2,4,23,28.35,g,local_csv,false
+Lomo Saltado (1.5 cups),Lomo Saltado,FastFood,500,35,22,45,1.5,cup,local_csv,false
+French Fries (as side),French Fries,Vegetable,200,2,10,25,1,piece,local_csv,false
+Soy Sauce (1 tbsp in stir-fry),Soy Sauce,Other,9,1,0,1,15,ml,local_csv,false
+Aji Amarillo Paste (1 tsp),Aji Amarillo Paste,Other,5,0.1,0,1,5,ml,local_csv,false
+Pisco Sour (1 drink),Pisco Sour,Drink,250,1,0,25,1,piece,local_csv,false
+Egg White (in drink),Egg White,Other,17,3.6,0,0.2,1,piece,local_csv,false
+Angostura Bitters (dash),Angostura Bitters,Other,5,0,0,0,1,piece,local_csv,false
+Alfajores (1 cookie),Alfajores,Dessert,180,2,10,22,1,piece,local_csv,false
+Dulce de Leche (1 tbsp filling),Dulce de Leche,Other,65,1,1.5,12,15,ml,local_csv,false
+Coconut (shredded garnish),Coconut,Fruit,10,0.1,1,0.5,1,piece,local_csv,false
+Mate (1 cup),Mate,Drink,5,0.2,0,1,1,cup,local_csv,false
+Media Luna (1 pastry),Media Luna,Carbs,190,4,8,25,1,piece,local_csv,false
+Chimichurri (1 tbsp),Chimichurri,Other,45,0.1,4.5,0.5,15,ml,local_csv,false
+Skirt Steak (4oz grilled),Skirt Steak,Protein,240,26,15,0,113.4,g,local_csv,false
+Provoleta (1 oz grilled cheese),Provoleta,Dairy,100,7,8,1,28.35,g,local_csv,false
+Oregano (1 tsp),Oregano,Other,3,0.1,0,0.7,5,ml,local_csv,false
+Empanada (Beef 1 medium),Empanada,FastFood,290,10,16,28,1,piece,local_csv,false
+Chicken Milanesa (1 serving),Chicken Milanesa,FastFood,450,35,22,30,1,piece,local_csv,false
+Mashed Potatoes (side),Mashed Potatoes,Vegetable,150,3,4,25,1,piece,local_csv,false
+Choripan (1 sandwich),Choripan,FastFood,550,20,35,40,1,piece,local_csv,false
+Baguette (slice),Baguette,Carbs,70,2.5,0.5,14,1,piece,local_csv,false
+Pizza (Margherita 1 slice),Pizza,FastFood,250,12,10,30,1,piece,local_csv,false
+Fresh Mozzarella (1 oz),Fresh Mozzarella,Dairy,72,5,5,0.8,28.35,g,local_csv,false
+Basil (2 tbsp fresh),Basil,Other,1,0.1,0,0.1,30,ml,local_csv,false
+Carbonara (1.5 cups),Carbonara,Carbs,650,25,35,60,1.5,cup,local_csv,false
+Guanciale (1 oz),Guanciale,Protein,170,3,18,0,28.35,g,local_csv,false
+Pecorino Cheese (1 tbsp),Pecorino Cheese,Dairy,25,1.5,2,0.1,15,ml,local_csv,false
+Black Pepper (1/4 tsp),Black Pepper,Other,1,0,0,0.2,1,piece,local_csv,false
+Egg Yolk (1 large in sauce),Egg Yolk,Protein,55,2.7,4.5,0.6,1,piece,local_csv,false
+Supplì (1 piece fried rice ball),Supplì,Snack,200,8,8,25,1,piece,local_csv,false
+Aperol Spritz (1 drink),Aperol Spritz,Drink,180,0,0,20,1,piece,local_csv,false
+Prosecco (3 oz),Prosecco,Drink,70,0,0,2,85.05,g,local_csv,false
+Orange Slice (garnish),Orange Slice,Fruit,5,0.1,0,1,1,piece,local_csv,false
+Tagliatelle al Ragù (Bolognese),Tagliatelle al Ragù,Carbs,550,28,20,65,1,piece,local_csv,false
+Ground Beef (2 oz in sauce),Ground Beef,Protein,140,11,10,0,56.7,g,local_csv,false
+Pancetta (0.5 oz in sauce),Pancetta,Protein,45,1.5,4.5,0,14.17,g,local_csv,false
+Carrot (1/4 minced in sauce),Carrot,Vegetable,10,0.2,0.1,2.4,1,piece,local_csv,false
+Celery (1/4 stalk minced),Celery,Vegetable,2,0.1,0,0.4,1,piece,local_csv,false
+Onion (1/8 minced in sauce),Onion,Vegetable,5,0.1,0,1.2,1,piece,local_csv,false
+Crushed Tomatoes (1/2 cup sauce),Crushed Tomatoes,Vegetable,20,1,0,4,1,piece,local_csv,false
+Parmigiano-Reggiano (1 tbsp),Parmigiano-Reggiano,Dairy,22,2,1.5,0.2,15,ml,local_csv,false
+Cannoli (1 medium),Cannoli,Dessert,240,5,13,25,1,piece,local_csv,false
+Ricotta (filling 1 oz),Ricotta,Dairy,49,3.2,3.8,0.8,28.35,g,local_csv,false
+Pistachio (garnish),Pistachio,Snack,10,0.4,0.8,0.5,1,piece,local_csv,false
+Biscotti (1 cookie),Biscotti,Dessert,110,2,4,18,1,piece,local_csv,false
+Espresso (for dipping),Espresso,Drink,2,0.2,0,0,1,piece,local_csv,false
+Focaccia (1 square),Focaccia,Carbs,250,8,7,40,1,piece,local_csv,false
+Rosemary (1 tsp topping),Rosemary,Other,1,0,0,0.2,5,ml,local_csv,false
+Olive Oil (1 tbsp drizzle),Olive Oil,Other,120,0,14,0,15,ml,local_csv,false
+Bruschetta (2 pcs),Bruschetta,Snack,180,4,7,25,2,piece,local_csv,false
+Balsamic Glaze (1 tsp),Balsamic Glaze,Other,13,0,0,3,5,ml,local_csv,false
+Ribollita (1.5 cups soup),Ribollita,Other,350,15,8,55,1.5,cup,local_csv,false
+Cannellini Beans (1/2 cup in soup),Cannellini Beans,Carbs,105,7,0.5,20,1,piece,local_csv,false
+Kale (1 cup in soup),Kale,Vegetable,33,2.9,0.6,6,1,cup,local_csv,false
+Stale Bread (1/2 cup in soup),Stale Bread,Carbs,80,3,1,15,1,piece,local_csv,false
+Polenta (1 cup creamy),Polenta,Carbs,150,3,1,32,1,cup,local_csv,false
+Gorgonzola Cheese (1 oz),Gorgonzola Cheese,Dairy,100,6,8,0.7,28.35,g,local_csv,false
+Negroni (1 drink),Negroni,Drink,190,0,0,15,1,piece,local_csv,false
+Gin (1 oz),Gin,Drink,70,0,0,0,28.35,g,local_csv,false
+Campari (1 oz),Campari,Drink,80,0,0,10,28.35,g,local_csv,false
+Sweet Vermouth (1 oz),Sweet Vermouth,Drink,40,0,0,5,28.35,g,local_csv,false
+Orange Peel (garnish),Orange Peel,Other,1,0,0,0.2,1,piece,local_csv,false
+Osso Buco (1 serving),Osso Buco,FastFood,550,45,30,15,1,piece,local_csv,false
+Gremolata (1 tbsp),Gremolata,Other,15,0.5,1,1,15,ml,local_csv,false
+Risotto alla Milanese (1 cup),Risotto alla Milanese,Carbs,350,10,12,50,1,cup,local_csv,false
+Saffron (pinch in risotto),Saffron,Other,1,0,0,0.1,1,piece,local_csv,false
+Panettone (1 slice),Panettone,Dessert,320,6,12,50,1,piece,local_csv,false
+Candied Fruit (1 tbsp),Candied Fruit,Fruit,30,0,0,8,15,ml,local_csv,false
+Amaretti Cookie (2 cookies),Amaretti Cookie,Dessert,90,2,4,12,2,piece,local_csv,false
+Limoncello (1.5 oz shot),Limoncello,Drink,150,0,0,18,42.52,g,local_csv,false
+Panna Cotta (1 serving),Panna Cotta,Dessert,300,4,20,25,1,piece,local_csv,false
+Berry Coulis (1 tbsp),Berry Coulis,Other,20,0,0,5,15,ml,local_csv,false
+Saltimbocca (1 serving),Saltimbocca,FastFood,380,38,22,5,1,piece,local_csv,false
+Prosciutto (1 slice wrapper),Prosciutto,Protein,35,4,2.5,0,1,piece,local_csv,false
+Sage (2 leaves),Sage,Other,1,0,0,0.1,2,piece,local_csv,false
+Polenta (grilled 1 slice),Polenta,Carbs,120,2.5,1,25,1,piece,local_csv,false
+Caponata (1/2 cup),Caponata,Vegetable,180,2,14,15,1,piece,local_csv,false
+Eggplant (1/2 cup in caponata),Eggplant,Vegetable,40,0.5,2,6,1,piece,local_csv,false
+Pine Nuts (1/2 tbsp),Pine Nuts,Snack,48,1,5,1,1,piece,local_csv,false
+Raisins (1 tbsp),Raisins,Fruit,27,0.3,0,7,15,ml,local_csv,false
+Gelato (Pistachio 1/2 cup),Gelato,Dessert,220,5,12,24,1,piece,local_csv,false
+Waffle Cone (1 small),Waffle Cone,Carbs,70,1,1.5,13,1,piece,local_csv,false
+Cacio e Pepe (1.5 cups),Cacio e Pepe,Carbs,500,18,19,65,1.5,cup,local_csv,false
+Pecorino Romano (1/4 cup),Pecorino Romano,Dairy,110,7.5,8.5,1,1,piece,local_csv,false
+Black Pepper (1/2 tsp),Black Pepper,Other,3,0.1,0,0.7,1,piece,local_csv,false
+Fiorentina Steak (3oz portion),Fiorentina Steak,Protein,230,24,15,0,85.05,g,local_csv,false
+Rosemary (garnish),Rosemary,Other,1,0,0,0.2,1,piece,local_csv,false
+White Beans (Tuscan style 1/2 cup),White Beans,Carbs,150,8,4,20,1,piece,local_csv,false
+Garlic (1 clove in beans),Garlic,Vegetable,4,0.2,0,0.9,1,piece,local_csv,false
+Sage (in beans),Sage,Other,1,0,0,0.1,1,piece,local_csv,false
+Arancini (1 large ball),Arancini,Snack,250,9,10,30,1,piece,local_csv,false
+Ragù (filling 1 tbsp),Ragù,Other,25,1.5,1.5,1,15,ml,local_csv,false
+Mozzarella (filling 0.5 oz),Mozzarella,Dairy,40,3,3,0.5,14.17,g,local_csv,false
+Breadcrumbs (coating),Breadcrumbs,Carbs,25,0.5,0.5,4,1,piece,local_csv,false
+Campari & Soda (1 drink),Campari & Soda,Drink,85,0,0,10,1,piece,local_csv,false
+Olive (garnish),Olive,Fruit,5,0,0.5,0.1,1,piece,local_csv,false
+Vitello Tonnato (1 serving),Vitello Tonnato,FastFood,380,35,25,3,1,piece,local_csv,false
+Tuna Sauce (2 tbsp),Tuna Sauce,Other,100,4,9,1,30,ml,local_csv,false
+Capers (garnish),Capers,Other,2,0.2,0.1,0.4,1,piece,local_csv,false
+Lemon Slice (garnish),Lemon Slice,Other,1,0,0,0.3,1,piece,local_csv,false
+Gnocchi alla Sorrentina (1.5 cups),Gnocchi alla Sorrentina,Carbs,450,15,18,60,1.5,cup,local_csv,false
+Tomato Sauce (1/2 cup),Tomato Sauce,Other,40,1.5,1,7,1,piece,local_csv,false
+Mozzarella (1 oz melted),Mozzarella,Dairy,80,6,6,1,28.35,g,local_csv,false
+Basil (fresh garnish),Basil,Other,1,0.1,0,0,1,piece,local_csv,false
+Pesto (1/4 cup),Pesto,Other,290,5,29,4,1,piece,local_csv,false
+Pine Nuts (1 tbsp in pesto),Pine Nuts,Snack,95,2,10,2,15,ml,local_csv,false
+Garlic (1/2 clove in pesto),Garlic,Vegetable,2,0.1,0,0.5,1,piece,local_csv,false
+Trofie Pasta (1 cup cooked),Trofie Pasta,Carbs,210,7,1,43,1,cup,local_csv,false
+Green Beans (1/2 cup w/ pasta),Green Beans,Vegetable,15,0.9,0.1,3.5,1,piece,local_csv,false
+Potato (1/2 w/ pasta),Potato,Vegetable,65,1,0.1,15,1,piece,local_csv,false
+Espresso Martini (1 drink),Espresso Martini,Drink,280,0.5,0,25,1,piece,local_csv,false
+Vodka (1.5 oz),Vodka,Drink,97,0,0,0,42.52,g,local_csv,false
+Coffee Liqueur (1 oz),Coffee Liqueur,Drink,100,0,0,15,28.35,g,local_csv,false
+Espresso (1 oz in drink),Espresso,Drink,3,0.3,0.1,0,28.35,g,local_csv,false
+Simple Syrup (1/2 oz),Simple Syrup,Other,30,0,0,8,1,piece,local_csv,false
+Coffee Beans (3 garnish),Coffee Beans,Snack,2,0.1,0,0.3,3,piece,local_csv,false
+Baba Ganoush (1/4 cup),Baba Ganoush,Vegetable,100,2,7,8,1,piece,local_csv,false
+Pita Bread (1 white),Pita Bread,Carbs,165,5.5,1.2,33,1,piece,local_csv,false
+Falafel (3 pieces),Falafel,Other,180,6,9,18,3,piece,local_csv,false
+Tahini Sauce (1 tbsp),Tahini Sauce,Other,30,1,2.5,1.5,15,ml,local_csv,false
+Pickled Turnips (2 tbsp),Pickled Turnips,Vegetable,10,0.2,0,2,30,ml,local_csv,false
+Shawarma (Chicken 1 wrap),Shawarma,FastFood,550,30,25,50,1,piece,local_csv,false
+Garlic Sauce (1 tbsp),Garlic Sauce,Other,90,0.1,10,1,15,ml,local_csv,false
+Hummus (1/4 cup),Hummus,Carbs,130,5,8,10,1,piece,local_csv,false
+Tabouli (1/2 cup),Tabouli,Other,120,3,6,15,1,piece,local_csv,false
+Bulgur (1/4 cup in tabouli),Bulgur,Carbs,76,2.7,0.2,16.8,1,piece,local_csv,false
+Parsley (1/4 cup in tabouli),Parsley,Vegetable,5,0.3,0.1,1,1,piece,local_csv,false
+Mint (1 tbsp in tabouli),Mint,Other,1,0.1,0,0.1,15,ml,local_csv,false
+Lemon Juice (1 tbsp dressing),Lemon Juice,Other,4,0.1,0,1.3,15,ml,local_csv,false
+Olive Oil (1 tbsp dressing),Olive Oil,Other,120,0,14,0,15,ml,local_csv,false
+Kibbeh (1 piece fried),Kibbeh,FastFood,230,9,13,20,1,piece,local_csv,false
+Pine Nuts (1/2 tbsp filling),Pine Nuts,Snack,48,1,5,1,1,piece,local_csv,false
+Ground Lamb (1 oz filling),Ground Lamb,Protein,80,5.5,6,0,28.35,g,local_csv,false
+Bulgur (1 tbsp shell),Bulgur,Carbs,15,0.5,0,3.4,15,ml,local_csv,false
+Lentil Soup (1 cup Middle Eastern),Lentil Soup,Carbs,200,10,5,30,1,cup,local_csv,false
+Cumin (1 tsp),Cumin,Other,8,0.3,0.5,1.5,5,ml,local_csv,false
+Coriander (1 tsp),Coriander,Other,5,0.1,0.2,1,5,ml,local_csv,false
+Lemon Juice (1 tsp in soup),Lemon Juice,Other,1,0,0,0.4,5,ml,local_csv,false
+Pita Crisps (1 oz),Pita Crisps,Snack,130,3,5,18,28.35,g,local_csv,false
+Manakeesh (Za'atar 1 small),Manakeesh,Other,300,7,10,45,1,piece,local_csv,false
+Za'atar (1 tbsp),Za'atar,Other,40,1,3,3,15,ml,local_csv,false
+Olive Oil (1 tbsp on bread),Olive Oil,Other,120,0,14,0,15,ml,local_csv,false
+Labneh (2 tbsp),Labneh,Dairy,60,4,4,2,30,ml,local_csv,false
+Cucumber (1/4 cup side),Cucumber,Vegetable,8,0.3,0,1.8,1,piece,local_csv,false
+Tomato (1/4 cup side),Tomato,Vegetable,8,0.3,0.1,1.8,1,piece,local_csv,false
+Olives (5 side),Olives,Fruit,35,0.2,3.5,1,5,piece,local_csv,false
+Mint Tea (1 cup),Mint Tea,Drink,2,0.1,0,0.5,1,cup,local_csv,false
+Stuffed Grape Leaves (3 pcs),Stuffed Grape Leaves,Other,150,3,7,20,3,piece,local_csv,false
+Rice (1/4 cup filling),Rice,Carbs,51,1.1,0.1,11.1,1,piece,local_csv,false
+Turkish Coffee (1 small cup),Turkish Coffee,Drink,5,0.2,0,0.5,1,cup,local_csv,false
+Cardamom (in coffee),Cardamom,Other,1,0,0,0.2,1,piece,local_csv,false
+Shish Tawook (2 skewers),Shish Tawook,FastFood,300,35,16,5,2,piece,local_csv,false
+Garlic Sauce (Toum 1 tbsp),Garlic Sauce,Other,90,0.1,10,1,15,ml,local_csv,false
+French Fries (side),French Fries,Vegetable,340,4,17,44,1,piece,local_csv,false
+Pickled Cucumber (1/4 cup),Pickled Cucumber,Vegetable,10,0.5,0,2,1,piece,local_csv,false
+Fattoush Salad (1.5 cups),Fattoush Salad,Other,250,5,15,25,1.5,cup,local_csv,false
+Fried Pita (1/2 pita in salad),Fried Pita,Carbs,80,2,3,12,1,piece,local_csv,false
+Sumac (1/2 tsp dressing),Sumac,Other,5,0.1,0.2,1,1,piece,local_csv,false
+Pomegranate Molasses (1 tsp),Pomegranate Molasses,Other,15,0,0,4,5,ml,local_csv,false
