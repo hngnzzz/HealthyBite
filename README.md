@@ -1,4 +1,4 @@
-# HealthyBite - Personal Nutrition Management System
+# HealthyBite - PERSONAL NUTRITION TRACKING APPLICATION
 HealthyBite is a full-stack web application for managing personal nutrition, health profiles, meal logs, body weight, and daily nutrition reports. The system helps users track calories, macronutrients, food intake, and personal health goals through a React frontend and an ASP.NET Core Web API backend.
 
 ## Overview
