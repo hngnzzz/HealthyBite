@@ -1,0 +1,166 @@
+# 3.1 System Requirements Specification (SRS)
+## 3.1.1 System Actors
+### a. Guest User (Unauthenticated User)
+A Guest User is a visitor who accesses the system without a valid authentication session. This actor can only access public pages and authentication-related functions. Guest Users are not allowed to access personal nutrition data or protected system features.
+Main responsibilities of a Guest User include:
+* Viewing the landing page and public information.
+* Creating a new account through the registration process.
+* Logging into the system using a valid email and password.
+* Being redirected to the appropriate page after successful authentication.
+Restricted features:
+* Dashboard
+* Food Search
+* Meal Logging
+* Profile Management
+* Reports and Analytics
+* Weight Tracking
+
+### b. Authenticated User
+An Authenticated User is the primary actor of the HealthyBite system. After successful authentication, users can access personalized nutrition management features.
+If a user has not completed the onboarding process, the system redirects them to the health profile setup workflow before granting access to the Dashboard.
+Main responsibilities of an Authenticated User include:
+* Managing authentication sessions.
+* Completing the onboarding process.
+* Managing personal health profiles.
+* Managing nutrition and health goals.
+* Searching for food and nutrition information.
+* Recording daily meal logs.
+* Monitoring daily nutrition intake through the Dashboard.
+* Viewing reports and body progress information.
+* Recording and managing weight logs.
+* Logging out of the system.
+
+---
+
+## 3.1.2 Functional Requirements
+### FR-01 User Registration and Authentication
+The system shall allow users to create a new account using basic registration information.
+The system shall allow registered users to authenticate using their email and password.
+Upon successful authentication:
+* The backend shall generate an access token.
+* The system shall support refresh token mechanisms for session maintenance.
+* Protected resources shall only be accessible to authenticated users.
+
+### FR-02 Health Profile Onboarding
+The system shall provide an onboarding workflow to collect initial health information from users.
+Collected information may include:
+* Gender
+* Age
+* Height
+* Weight
+* Activity Level
+* Nutrition Goal
+The collected information shall be used to support nutrition calculations and personalized recommendations.
+
+### FR-03 Profile Management
+The system shall allow authenticated users to:
+* View personal profile information.
+* Update health-related information.
+* Maintain nutrition-related settings.
+The profile data shall be stored and synchronized with the backend database.
+
+### FR-04 Goal Management
+The system shall allow users to define and update nutrition goals.
+Supported goals may include:
+* Weight Maintenance
+* Weight Loss
+* Weight Gain
+The goal configuration shall be used in nutrition target calculations.
+
+### FR-05 Food Search
+The system shall allow users to search for food items and nutrition information.
+The system may retrieve nutrition data from:
+* Local nutrition datasets.
+* External food data providers.
+* Internal food databases.
+Food search results shall include calories and macronutrient information when available.
+
+### FR-06 Meal Loggin
+The system shall allow users to record foods consumed during daily meals.
+Supported meal categories include:
+* Breakfast
+* Lunch
+* Dinner
+* Snacks
+The system shall calculate and store:
+* Total Calories
+* Protein
+* Carbohydrates
+* Fat
+for each meal record.
+
+### FR-07 Nutrition Dashboard
+The system shall provide a dashboard that summarizes daily nutrition information.
+The dashboard shall display:
+* Daily calorie intake
+* Protein consumption
+* Carbohydrate consumption
+* Fat consumption
+* Progress toward nutrition goals
+Dashboard data shall be generated from profile and meal log information.
+
+### FR-08 Reports and Body Progress Tracking
+The system shall provide reporting features to help users monitor nutrition and health progress.
+The system may provide:
+* Nutrition summaries
+* Historical meal information
+* Weight tracking history
+* Health progress indicators
+
+### FR-09 Weight Log Management
+The system shall allow users to:
+* Record body weight measurements.
+* View historical weight records.
+* Delete incorrect weight entries.
+Weight data shall be used to support body progress monitoring.
+---
+
+## 3.1.3 Non-Functional Requirements
+### NFR-01 Security
+The system shall ensure the confidentiality of user information and health-related data.
+Security requirements include:
+* Protected APIs must require authentication.
+* Access tokens shall be used for authorization.
+* Refresh tokens shall be managed securely.
+* Sensitive credentials shall not be exposed to clients.
+* User passwords shall be stored using secure hashing mechanisms.
+
+### NFR-02 Data Integrity
+The system shall maintain data consistency and accuracy across all modules.
+Requirements include:
+* Health profile information must be stored accurately.
+* Meal logs and meal details must remain synchronized.
+* Nutrition calculations must use valid and complete data.
+* Database transactions should prevent partial or inconsistent updates.
+
+### NFR-03 Performance
+The system should provide acceptable response times under normal operating conditions.
+Expected targets:
+* Authentication requests should complete within a few seconds.
+* Food search requests should return results with minimal delay.
+* Dashboard data should be generated efficiently.
+
+### NFR-04 Scalability
+The system shall follow a modular architecture to support future expansion.
+Potential future enhancements include:
+* Additional food data providers.
+* AI-based nutrition recommendations.
+* Barcode scanning integration.
+* Mobile application development.
+* Advanced nutrition analytics.
+* AI nutrition assistant features.
+
+### NFR-05 Availability
+The system should remain operational and accessible whenever required by users.
+Deployment infrastructure should support:
+* Health monitoring.
+* Service recovery mechanisms.
+* Containerized deployment using Docker.
+
+### NFR-06 Maintainability
+The system shall be designed using a layered architecture to improve maintainability.
+The source code should follow:
+* Separation of concerns.
+* Reusable service components.
+* Consistent coding conventions.
+* Clear documentation and project structure.
